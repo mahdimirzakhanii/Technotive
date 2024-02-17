@@ -5,15 +5,15 @@
 
 /* @font-face {
     font-family: "irsans";
-    src: url(/dist/font/irsans-b8fdd.woff) format("woff");
+    src: url(dist/font/irsans-b8fdd.woff) format("woff");
 } */
 
 @font-face {
     font-family: "irsans";
     font-style: normal;
     font-weight: 700;
-    src: url(/dist/font/irsans-m11ee.eot?e8bf431bb6a5a48df131757740379df2);
-    src: url(/dist/font/irsans-m11ee.eot?e8bf431bb6a5a48df131757740379df2) format("embedded-opentype"), url(/dist/font/irsans-m04d9.woff?a465b68f7c1069909584ea67d34c0319) format("woff"), url(/dist/font/irsans-m4780.ttf?3f27847a3a3b282bcee2400a6f6e2c2f) format("truetype");
+    src: url("dist/font/irsans-m11ee.eot?e8bf431bb6a5a48df131757740379df2");
+    src: url("dist/font/irsans-m11ee.eot?e8bf431bb6a5a48df131757740379df2") format("embedded-opentype"), url("dist/font/irsans-m04d9.woff?a465b68f7c1069909584ea67d34c0319") format("woff"), url("dist/font/irsans-m4780.ttf?3f27847a3a3b282bcee2400a6f6e2c2f") format("truetype");
 }
 
 
@@ -30,7 +30,7 @@ body {
 
 /* start header  */
 header {
-    background: url("/dist/img/hero-bg.jpg") top center;
+    background: url("dist/img/hero-bg.jpg") top center;
     background-attachment: fixed;
     background-size: 100vw 130vh;
     background-repeat: no-repeat;
@@ -98,8 +98,6 @@ header::before {
 .navbar-search:hover {
     background-color: var(--color-1);
 }
-
-
 
 .search-modal {
     display: flex;
@@ -608,7 +606,7 @@ header::before {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url(/dist/img/cta-bg.jpg) bottom;
+    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("dist/img/cta-bg.jpg") bottom;
     background-attachment: fixed;
     background-size: 100%;
     margin: 50px 0 100px 0;
@@ -842,7 +840,7 @@ header::before {
 
 .row-slider {
     width: 100%;
-    background-image: url('../img/testimonials-bg.jpg');
+    background-image: url("dist/img/testimonials-bg.jpg");
     background-size: 100% 100%;
     background-attachment: fixed;
     position: relative;
